@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blue themed background and helpers */
+:root{
+  --bg: #031226;
+  --card: rgba(255,255,255,0.03);
+  --accent1: #3b82f6; /* blue */
+  --accent2: #0ea5e9; /* cyan */
+}
+
+body {
+  background: linear-gradient(180deg, #010615, #031226 60%);
+  color: #e6eef8;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* glow card */
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 6px 30px rgba(14,165,233,0.03);
+}
+
+/* neon text */
+.neon {
+  background: linear-gradient(90deg, var(--accent1), var(--accent2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* blob styles */
+.blob {
+  position: absolute;
+  filter: blur(60px);
+  opacity: 0.3;
+  z-index: 0;
+}
+
+/* circular photo glow */
+.photo-glow {
+  box-shadow: 0 0 35px 12px rgba(59,130,246,0.6), 0 0 70px 30px rgba(14,165,233,0.35);
+  border-radius: 9999px;
+}
+
+/* small helpers */
+.btn-accent {
+  background: linear-gradient(90deg, #3b82f6, #06b6d4);
+  color: white;
+}
