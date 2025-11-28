@@ -24,23 +24,29 @@ export default function Skills() {
             ))}
           </div>
 
+          {/* RIGHT SIDE — DYNAMIC STATS */}
           <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">
+
             <div className="card flex flex-col items-start p-4">
-              <AnimatedCounter end={50} suffix="+" />
+              <AnimatedCounter end={stats.projects} suffix="+" />
               <div className="text-sm opacity-80">Projects completed</div>
             </div>
+
             <div className="card flex flex-col items-start p-4">
-              <AnimatedCounter end={3} suffix=" yrs" />
+              <AnimatedCounter end={stats.experience} suffix=" yrs" />
               <div className="text-sm opacity-80">Experience</div>
             </div>
+
             <div className="card flex flex-col items-start p-4">
-              <AnimatedCounter end={120} suffix="+" />
+              <AnimatedCounter end={stats.commits} suffix="+" />
               <div className="text-sm opacity-80">Commits</div>
             </div>
+
             <div className="card flex flex-col items-start p-4">
-              <AnimatedCounter end={20} suffix="+" />
+              <AnimatedCounter end={stats.tools} suffix="+" />
               <div className="text-sm opacity-80">Tools used</div>
             </div>
+
           </div>
         </div>
       </div>
