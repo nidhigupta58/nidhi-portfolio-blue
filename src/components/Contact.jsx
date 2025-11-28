@@ -29,7 +29,7 @@ export default function Contact() {
 
         <div className="flex items-center gap-3 mt-3">
           <button type="submit" className="px-5 py-3 rounded-full btn-accent shadow-lg">Send message</button>
-          <a href="/resume.pdf" className="text-sm underline">Download CV</a>
+          <a href="https://github.com/nidhigupta58/nidhigupta58/blob/main/Nidhi%20Gupta.pdf" className="text-sm underline">Download CV</a>
         </div>
       </motion.form>
     </section>
