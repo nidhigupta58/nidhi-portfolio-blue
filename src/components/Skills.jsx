@@ -1,5 +1,5 @@
 import React from 'react'
-import { skills } from '../data/skills'
+import { skills, stats } from '../data/skills'
 import AnimatedCounter from './AnimatedCounter'
 import { motion } from 'framer-motion'
 
