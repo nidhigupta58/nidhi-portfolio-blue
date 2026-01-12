@@ -51,4 +51,33 @@ body {
 .btn-accent {
   background: linear-gradient(90deg, #3b82f6, #06b6d4);
   color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-accent:hover {
+  background: linear-gradient(90deg, #2563eb, #0891b2);
+}
+
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #031226;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
 }
