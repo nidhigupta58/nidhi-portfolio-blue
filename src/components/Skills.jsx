@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 export default function Skills() {
   return (
     <div>
-      <h3 className="text-2xl font-bold mb-4">Skills & Stats</h3>
+      <h3 className="text-2xl font-bold mb-6 neon">Skills & Stats</h3>
 
       <div className="grid grid-cols-1 gap-4">
         <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
