@@ -9,7 +9,9 @@ export default function Projects() {
     <section id="projects" className="mb-12 relative z-10">
       <h3 className="text-3xl font-bold mb-8 neon">Projects</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
-        {projects.map((proj, i) => (
+        {projects.map((proj, i) => {
+          const imageSrc = proj.image || proj.imageUrl
+          return (
           <motion.article 
             key={proj.id}
             initial={{ opacity: 0, y: 20 }}
@@ -18,6 +20,17 @@ export default function Projects() {
             transition={{ delay: i * 0.1, duration: 0.5 }}
             className="card hover:scale-[1.02] hover:border-blue-500/30 transform transition-all duration-300 flex flex-col h-full"
           >
+            {imageSrc && (
+              <div className="mb-4 overflow-hidden rounded-lg border border-white/10 bg-white/5">
+                <img
+                  src={imageSrc}
+                  alt={proj.title}
+                  className="w-full h-44 object-cover"
+                  loading="lazy"
+                />
+              </div>
+            )}
+
             <div className="mb-4">
               <div className="flex items-start justify-between gap-3 mb-2">
                 <h4 className="font-bold text-lg text-blue-300">{proj.title}</h4>
@@ -72,7 +85,8 @@ export default function Projects() {
               </div>
             </div>
           </motion.article>
-        ))}
+          )
+        })}
       </div>
     </section>
   )
