@@ -57,7 +57,7 @@ export default function Experience() {
           <div className="card p-5 hover:border-blue-500/30 transition-colors">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
               <div>
-                <div className="text-lg font-bold">Software Product Developer</div>
+                <div className="text-lg font-bold">Software Product Developer Intern</div>
                 <div className="text-sm font-semibold text-blue-400">Silver Oak Health</div>
               </div>
               <div className="text-xs opacity-70">Oct '22 — Jan '23</div>
@@ -88,7 +88,7 @@ export default function Experience() {
           <div className="card p-5 hover:border-blue-500/30 transition-colors">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
               <div>
-                <div className="text-lg font-bold">Software Developer</div>
+                <div className="text-lg font-bold">Software Developer Intern</div>
                 <div className="text-sm font-semibold text-blue-400">SISL Infotech</div>
               </div>
               <div className="text-xs opacity-70">Oct '21 — Jan '22</div>
