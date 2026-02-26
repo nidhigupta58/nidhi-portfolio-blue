@@ -4,7 +4,7 @@ export const projects = [
     title: 'Empowerverse',
     company: 'Persist Ventures',
     description: 'Built features for a personalized media platform focused on meaningful and value-based content discovery. Implemented frontend UI and backend APIs to support user-centric recommendations and engagement.',
-    tags: ['React.js', 'Node.js', 'JavaScript', 'REST APIs', 'SQL/NoSQL', 'Tailwind CSS'],
+    tags: ['React.js', 'JavaScript', 'REST APIs', 'MySQL', 'Firebase', 'Tailwind CSS'],
     live: '#',
     repo: '#'
   },
