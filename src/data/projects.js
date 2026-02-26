@@ -56,5 +56,35 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Tailwind CSS'],
     live: 'https://nidhi-portfolio-blue-five.vercel.app',
     repo: 'https://github.com/nidhigupta58/nidhi-portfolio-blue'
+  },
+  {
+    id: 8,
+    title: 'Arborio Rice',
+    description: 'Ingredient card with real image.',
+    tags: ['Ingredient'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Arborio_Rice_%283769693295%29.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Arborio_Rice_%283769693295%29.jpg',
+    live: '#',
+    repo: '#'
+  },
+  {
+    id: 9,
+    title: 'Baking Soda',
+    description: 'Ingredient card with real image.',
+    tags: ['Ingredient'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Sodium_bicarbonate.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Sodium_bicarbonate.jpg',
+    live: '#',
+    repo: '#'
+  },
+  {
+    id: 10,
+    title: 'Beans',
+    description: 'Ingredient card with real image.',
+    tags: ['Ingredient'],
+    image: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Kidney_beans.jpg',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Kidney_beans.jpg',
+    live: '#',
+    repo: '#'
   }
 ]
